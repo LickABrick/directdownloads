@@ -8,7 +8,7 @@
     export let item: Product;
 </script>
 
-<Card.Root class="min-w-[300px]">
+<Card.Root class="min-w-[350px] md:max-w-[350px]">
 	<Card.Header>
 		<Card.Title>{item.Name}</Card.Title>
 		<Card.Description>{item.Description}</Card.Description>

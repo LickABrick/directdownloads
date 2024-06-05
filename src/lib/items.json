@@ -26,6 +26,32 @@
 		]
 	},
 	{
+		"Name": "Veeam Agent for Microsoft Windows",
+		"Publisher": "Veeam",
+		"Description": "Veeam Agent for Microsoft Windows",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "6.1.2.134",
+				"DownloadUrl": "https://download2.veeam.com/VAW/v6/VeeamAgentWindows_6.1.2.134.zip",
+				"ReleaseDate": "21-05-2024",
+				"ReleaseNotes": "https://www.veeam.com/veeam_agent_windows_6_1_release_notes_rn.pdf",
+				"Size": "165 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "e0b215b7703cc5786e38002962287fc6236cbf86"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "15637455aec79b525bf3d54d984e54d0"
+					}
+				],
+				"ChecksumSource": "https://www.veeam.com/windows-backup-download.html"
+			}
+		]
+	},
+	{
 		"Name": "HPE iLO 5",
 		"Publisher": "HPE",
 		"Description": "Firmware for HPE iLO 5",
@@ -38,14 +64,14 @@
 				"ReleaseNotes": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=revisionHistory",
 				"Size": "",
 				"Checksums": [
-          {
-            "Algorithm": "SHA256",
-            "Checksum": "c5ec49a894d1a7238104379a9bcd52d83f3cf0bd6b4f6477a47ae84ac6cfe8d7"
-          }
-        ],
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "c5ec49a894d1a7238104379a9bcd52d83f3cf0bd6b4f6477a47ae84ac6cfe8d7"
+					}
+				],
 				"ChecksumSource": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=Installation+Instructions&softwareId=MTX_cd14c1a89d4b40cc9d5dc68c97"
 			},
-      {
+			{
 				"Version": "3.03",
 				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/fwpkg-ilo/p991377599/v245134/ilo5_303.fwpkg",
 				"ReleaseDate": "27-03-2024",

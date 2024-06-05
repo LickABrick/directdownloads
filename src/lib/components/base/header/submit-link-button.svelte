@@ -4,6 +4,7 @@
 	import { Input } from '$lib/components/ui/input';
 	import { Label } from '$lib/components/ui/label';
 	import { Switch } from '$lib/components/ui/switch';
+	import { Plus } from 'lucide-svelte/icons';
 
 	let newLinkData = {
 		Name: '',
@@ -20,7 +21,12 @@
 
 <Dialog.Root>
 	<Dialog.Trigger>
-		<Button>Submit a link</Button>
+		<Button class="md:hidden" size="icon">
+			<Plus />
+			</Button>
+		<Button class="hidden md:block">
+			Submit a link
+		</Button>
 	</Dialog.Trigger>
 	<Dialog.Content>
 		<Dialog.Header>

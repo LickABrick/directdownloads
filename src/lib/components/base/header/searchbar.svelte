@@ -43,10 +43,10 @@
 				autocomplete="off"
 				spellcheck="false"
 				type="search"
-                class="min-w-[800px]"
+                class="w-[65vw] lg:w-[40vw]"
 			/>
 		</Popover.Trigger>
-		<Popover.Content class="w-[800px] p-0">
+		<Popover.Content class="w-[60vw]">
            
 			<Command.Root>
 				<!-- <Command.Input placeholder="Search framework..." /> -->
