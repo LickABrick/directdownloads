@@ -64,7 +64,7 @@
 							{/if}
 						</Table.Cell>
 						<Table.Cell>
-							<Badge variant="outline" href={release.ReleaseNotes}>
+							<Badge variant="outline" href={release.ReleaseNotes} target="_blank">
 								{#if release.ReleaseNotes}
 									View
 								{:else}
