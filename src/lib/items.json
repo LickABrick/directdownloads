@@ -1,0 +1,46 @@
+[
+  {
+    "Name": "Veeam Backup and Replication",
+    "Publisher": "Veeam",
+    "Description": "Backup and Replication",
+    "LoginRequired": false,
+    "Releases": [
+      {
+        "Version": "12.1.2.172",
+        "DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.1.2.172_20240515.iso",
+        "ReleaseDate": "21-05-2024",
+        "ReleaseNotes": "https://www.veeam.com/veeam_backup_12_1_release_notes_rn.pdf",
+        "Size": "9.1 GB",
+        "Checksums": [
+          {
+            "Algorithm": "SHA-1",
+            "Checksum": "3e9e11cb8879ddeb4558ca8de702f7e821a2c25e"
+          },
+          {
+            "Algorithm": "MD5",
+            "Checksum": "a12c0f6ee2faeb735c6d15d8832f915a"
+          }
+        ],
+        "ChecksumSource": "https://www.veeam.com/download-version.html"
+      },
+      {
+				"Version": "12.1.2.170",
+				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.1.2.172_20240515.iso",
+				"ReleaseDate": "20-05-2024",
+				"ReleaseNotes": "https://www.veeam.com/veeam_backup_12_1_release_notes_rn.pdf",
+				"Size": "9.1 GB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "3e9e11cb8879ddeb4558ca8de702f7e821a2c25e"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "a12c0f6ee2faeb735c6d15d8832f915a"
+					}
+				],
+				"ChecksumSource": "https://www.veeam.com/download-version.html"
+			}
+    ]
+  }
+]
