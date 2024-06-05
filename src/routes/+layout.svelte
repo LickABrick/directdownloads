@@ -6,7 +6,5 @@
 <ModeWatcher />
 <div class="flex h-screen flex-col">
     <Header />
-	<div class="flex h-[calc(100vh)]">
 		<slot />
-	</div>
 </div>
