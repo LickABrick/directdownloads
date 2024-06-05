@@ -10,7 +10,7 @@
 </script>
 
 <Dialog.Root bind:open={$selectedProduct.open}>
-	<Dialog.Content class="min-w-[800px]">
+	<Dialog.Content class="md:min-w-[800px]">
 		<Dialog.Header>
 			<Dialog.Title>{$selectedProduct.data?.Name}</Dialog.Title>
 			<Dialog.Description>{$selectedProduct.data?.Description}</Dialog.Description>
