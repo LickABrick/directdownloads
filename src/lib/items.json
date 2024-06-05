@@ -32,13 +32,32 @@
 		"LoginRequired": false,
 		"Releases": [
 			{
-				"Version": "3.04",
-				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/fwpkg-ilo/p991377599/v246104/ilo5_304.fwpkg",
-				"ReleaseDate": "19-04-2024",
-				"ReleaseNotes": "",
+				"Version": "3.04(a)",
+				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/fwpkg-ilo/p991377599/v248136/ilo5_304.fwpkg",
+				"ReleaseDate": "04-06-2024",
+				"ReleaseNotes": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=revisionHistory",
 				"Size": "",
-				"Checksums": [],
-				"ChecksumSource": "https://www.veeam.com/download-version.html"
+				"Checksums": [
+          {
+            "Algorithm": "SHA256",
+            "Checksum": "c5ec49a894d1a7238104379a9bcd52d83f3cf0bd6b4f6477a47ae84ac6cfe8d7"
+          }
+        ],
+				"ChecksumSource": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=Installation+Instructions&softwareId=MTX_cd14c1a89d4b40cc9d5dc68c97"
+			},
+      {
+				"Version": "3.03",
+				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/fwpkg-ilo/p991377599/v245134/ilo5_303.fwpkg",
+				"ReleaseDate": "27-03-2024",
+				"ReleaseNotes": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=revisionHistory&softwareId=MTX_edf6c6b86048422482975f1ba4",
+				"Size": "",
+				"Checksums": [
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "53aad53ce5f7ab4e7dae2c6946b7afa9d86167e72b3de41077a21120e2d8df25"
+					}
+				],
+				"ChecksumSource": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=Installation+Instructions&softwareId=MTX_edf6c6b86048422482975f1ba4"
 			}
 		]
 	},
@@ -48,24 +67,6 @@
 		"Description": "Ivanti Workspace Control",
 		"LoginRequired": false,
 		"Releases": [
-			{
-				"Version": "10.17.0.0",
-				"DownloadUrl": "https://download.ivanti.com/downloads/RES/Ivanti%20Workspace%20Control/Ivanti_Workspace_Control_10.17.0.0.zip",
-				"ReleaseDate": "16-04-2024",
-				"ReleaseNotes": "https://help.ivanti.com/res/help/en_US/IWC/2024/ReleaseNotesRevision/default.htm",
-				"Size": "787 MB",
-				"Checksums": [
-					{
-						"Algorithm": "SHA256",
-						"Checksum": "A789D1C9A89B6845FCF61E6708B1CAD7FB9CFF06B2463D253B1E781DCD505A96"
-					},
-					{
-						"Algorithm": "SHA512",
-						"Checksum": "09C70EF51B96B9D2E10958E4A7DA17FE7052D878777BA3001FBE23BD25A24E0FA884595B3672F00D42F83D0E78EB6AA4C338CB8A1E648F78BF10D4F691D5E56C"
-					}
-				],
-				"ChecksumSource": "https://forums.ivanti.com/s/article/Ivanti-Workspace-Control-revision-download-links"
-			},
 			{
 				"Version": "10.17.10.0",
 				"DownloadUrl": "https://download.ivanti.com/downloads/RES/Ivanti%20Workspace%20Control/Ivanti_Workspace_Control_10.17.10.0.zip",
@@ -80,6 +81,24 @@
 					{
 						"Algorithm": "SHA512",
 						"Checksum": "A7574918100BE767EFEC2AFA957AD99E6C4FA6CC9F00C41221440945A6EB519F82D7F3519B17FB558EB7AE72C0BB33BD5902C9AAFE24D8987009ED770A956EFC"
+					}
+				],
+				"ChecksumSource": "https://forums.ivanti.com/s/article/Ivanti-Workspace-Control-revision-download-links"
+			},
+			{
+				"Version": "10.17.0.0",
+				"DownloadUrl": "https://download.ivanti.com/downloads/RES/Ivanti%20Workspace%20Control/Ivanti_Workspace_Control_10.17.0.0.zip",
+				"ReleaseDate": "16-04-2024",
+				"ReleaseNotes": "https://help.ivanti.com/res/help/en_US/IWC/2024/ReleaseNotesRevision/default.htm",
+				"Size": "787 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "A789D1C9A89B6845FCF61E6708B1CAD7FB9CFF06B2463D253B1E781DCD505A96"
+					},
+					{
+						"Algorithm": "SHA512",
+						"Checksum": "09C70EF51B96B9D2E10958E4A7DA17FE7052D878777BA3001FBE23BD25A24E0FA884595B3672F00D42F83D0E78EB6AA4C338CB8A1E648F78BF10D4F691D5E56C"
 					}
 				],
 				"ChecksumSource": "https://forums.ivanti.com/s/article/Ivanti-Workspace-Control-revision-download-links"
