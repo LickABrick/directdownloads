@@ -4,7 +4,7 @@
 	import ProductCard from '$lib/components/base/product-card/product-card.svelte';
 </script>
 
-<div class="mt-4 flex gap-4">
+<div class="mt-4 flex gap-4 p-4">
 	{#each items as item}
 		<ProductCard {item} />
 	{/each}
