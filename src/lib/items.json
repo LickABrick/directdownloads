@@ -1,32 +1,14 @@
 [
-  {
-    "Name": "Veeam Backup and Replication",
-    "Publisher": "Veeam",
-    "Description": "Backup and Replication",
-    "LoginRequired": false,
-    "Releases": [
-      {
-        "Version": "12.1.2.172",
-        "DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.1.2.172_20240515.iso",
-        "ReleaseDate": "21-05-2024",
-        "ReleaseNotes": "https://www.veeam.com/veeam_backup_12_1_release_notes_rn.pdf",
-        "Size": "9.1 GB",
-        "Checksums": [
-          {
-            "Algorithm": "SHA-1",
-            "Checksum": "3e9e11cb8879ddeb4558ca8de702f7e821a2c25e"
-          },
-          {
-            "Algorithm": "MD5",
-            "Checksum": "a12c0f6ee2faeb735c6d15d8832f915a"
-          }
-        ],
-        "ChecksumSource": "https://www.veeam.com/download-version.html"
-      },
-      {
-				"Version": "12.1.2.170",
+	{
+		"Name": "Veeam Backup and Replication",
+		"Publisher": "Veeam",
+		"Description": "Backup and Replication",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "12.1.2.172",
 				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.1.2.172_20240515.iso",
-				"ReleaseDate": "20-05-2024",
+				"ReleaseDate": "21-05-2024",
 				"ReleaseNotes": "https://www.veeam.com/veeam_backup_12_1_release_notes_rn.pdf",
 				"Size": "9.1 GB",
 				"Checksums": [
@@ -41,6 +23,67 @@
 				],
 				"ChecksumSource": "https://www.veeam.com/download-version.html"
 			}
-    ]
-  }
+		]
+	},
+	{
+		"Name": "HPE iLO 5",
+		"Publisher": "HPE",
+		"Description": "Firmware for HPE iLO 5",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "3.04",
+				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/fwpkg-ilo/p991377599/v246104/ilo5_304.fwpkg",
+				"ReleaseDate": "19-04-2024",
+				"ReleaseNotes": "",
+				"Size": "",
+				"Checksums": [],
+				"ChecksumSource": "https://www.veeam.com/download-version.html"
+			}
+		]
+	},
+	{
+		"Name": "Ivanti Workspace Control",
+		"Publisher": "Ivanti",
+		"Description": "Ivanti Workspace Control",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "10.17.0.0",
+				"DownloadUrl": "https://download.ivanti.com/downloads/RES/Ivanti%20Workspace%20Control/Ivanti_Workspace_Control_10.17.0.0.zip",
+				"ReleaseDate": "16-04-2024",
+				"ReleaseNotes": "https://help.ivanti.com/res/help/en_US/IWC/2024/ReleaseNotesRevision/default.htm",
+				"Size": "787 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "A789D1C9A89B6845FCF61E6708B1CAD7FB9CFF06B2463D253B1E781DCD505A96"
+					},
+					{
+						"Algorithm": "SHA512",
+						"Checksum": "09C70EF51B96B9D2E10958E4A7DA17FE7052D878777BA3001FBE23BD25A24E0FA884595B3672F00D42F83D0E78EB6AA4C338CB8A1E648F78BF10D4F691D5E56C"
+					}
+				],
+				"ChecksumSource": "https://forums.ivanti.com/s/article/Ivanti-Workspace-Control-revision-download-links"
+			},
+			{
+				"Version": "10.17.10.0",
+				"DownloadUrl": "https://download.ivanti.com/downloads/RES/Ivanti%20Workspace%20Control/Ivanti_Workspace_Control_10.17.10.0.zip",
+				"ReleaseDate": "21-05-2024",
+				"ReleaseNotes": "https://help.ivanti.com/res/help/en_US/IWC/2024/ReleaseNotesRevision/default.htm",
+				"Size": "787 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "A696ED441635BE53FE3064D6CF02EC8BAB6AB35FB7AFDCD8EDE208C90749764A"
+					},
+					{
+						"Algorithm": "SHA512",
+						"Checksum": "A7574918100BE767EFEC2AFA957AD99E6C4FA6CC9F00C41221440945A6EB519F82D7F3519B17FB558EB7AE72C0BB33BD5902C9AAFE24D8987009ED770A956EFC"
+					}
+				],
+				"ChecksumSource": "https://forums.ivanti.com/s/article/Ivanti-Workspace-Control-revision-download-links"
+			}
+		]
+	}
 ]

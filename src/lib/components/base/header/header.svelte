@@ -1,14 +1,23 @@
 <script lang="ts">
+	import { Button } from '$lib/components/ui/button';
 	import { cn } from '$lib/utils.js';
 	import ThemeToggle from '../theme-toggle/theme-toggle.svelte';
+	import Searchbar from './searchbar.svelte';
+	import SubmitLinkButton from './submit-link-button.svelte';
 </script>
 
-<div class={cn('flex h-16 bg-muted/30 shadow col-span-2')} {...$$restProps}>
-	<div class="ml-4 flex gap-6 items-center justify-center">
-		<!-- <img src="{ logo }" alt="logo" class="h-10 w-10"> -->
-		<p class="font-semibold text-lg">DirectDownloads.pages.dev</p>
+<div
+	class={cn('col-span-2 flex h-16 items-center justify-between bg-muted/30 p-4 shadow')}
+	{...$$restProps}
+>
+	<div class="flex-1">
+		<p class="text-lg font-semibold">DirectDownloads.pages.dev</p>
 	</div>
-	<div class="ml-auto mr-6 flex gap-6 items-center justify-center">
+	<div class="flex flex-1 justify-center">
+		<Searchbar />
+	</div>
+	<div class="flex flex-1 justify-end gap-4">
+		<SubmitLinkButton />
 		<ThemeToggle />
 	</div>
 </div>
