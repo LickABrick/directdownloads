@@ -43,7 +43,7 @@
 				autocomplete="off"
 				spellcheck="false"
 				type="search"
-                class="w-[65vw] lg:w-[40vw]"
+                class="w-[40vw] lg:w-[40vw]"
 			/>
 		</Popover.Trigger>
 		<Popover.Content class="w-[60vw] lg:w-[40vw]">
