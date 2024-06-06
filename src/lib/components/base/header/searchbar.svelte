@@ -46,7 +46,7 @@
                 class="w-[65vw] lg:w-[40vw]"
 			/>
 		</Popover.Trigger>
-		<Popover.Content class="w-[60vw]">
+		<Popover.Content class="w-[60vw] lg:w-[40vw]">
            
 			<Command.Root>
 				<!-- <Command.Input placeholder="Search framework..." /> -->
