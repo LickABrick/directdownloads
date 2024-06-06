@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button';
+	import * as Tooltip from '$lib/components/ui/tooltip';
 	import { FileClock, History, Star } from 'lucide-svelte/icons';
 	import * as Card from '$lib/components/ui/card';
 	import { selectedProduct } from '$lib/stores';
@@ -14,7 +15,7 @@
 		}
 	}
 
-    export let item: Product;
+	export let item: Product;
 </script>
 
 <Card.Root class="min-w-[350px] md:max-w-[350px]">
@@ -22,20 +23,33 @@
 		<Card.Title class="flex justify-items-center">
 			{item.Name}
 			<Button class="ml-auto" size="icon" variant="ghost" on:click={() => toggleFavorite(item)}>
-				<Star class="hover:text-amber-500 hover:fill-amber-500 { $favorites.entries.includes(item.Name) ? 'fill-amber-500 text-amber-500' : '' }" />
+				<Star
+					class="hover:fill-amber-500 hover:text-amber-500 {$favorites.entries.includes(item.Name)
+						? 'fill-amber-500 text-amber-500'
+						: ''}"
+				/>
 			</Button>
 		</Card.Title>
 		<Card.Description>{item.Description}</Card.Description>
 	</Card.Header>
 	<Card.Content class="flex flex-col gap-2">
 		<div class="flex gap-2">
-			<Button
-				href={item.Releases[0].DownloadUrl}
-				target="_blank"
-				class="w-full gap-2 font-semibold"
-			>
-				Download latest
-			</Button>
+			<Tooltip.Root openDelay={200}>
+				<Tooltip.Trigger asChild let:builder>
+					<Button
+						builders={[builder]}
+						href={item.Releases[0].DownloadUrl}
+						target="_blank"
+						class="w-full gap-2 font-semibold"
+					>
+						Download latest
+					</Button>
+				</Tooltip.Trigger>
+				<Tooltip.Content>
+					<p>{item.Releases[0].DownloadUrl}</p>
+				</Tooltip.Content>
+			</Tooltip.Root>
+
 			<Button variant="outline" href={item.Releases[0].ReleaseNotes} target="_blank" size="icon">
 				<FileClock size="18" />
 			</Button>
