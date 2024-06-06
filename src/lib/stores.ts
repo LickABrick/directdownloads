@@ -6,3 +6,4 @@ import { persisted } from 'svelte-persisted-store'
 export const selectedProduct = writable<any>({ data: undefined, open: false})
 
 export const favorites = persisted('favorites', { expanded: true, entries: []})
+export const showFirstVisitDialog = persisted('showFirstVisitDialog', true)
