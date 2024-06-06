@@ -1,9 +1,15 @@
 <script lang="ts">
 	import * as AlertDialog from '$lib/components/ui/alert-dialog';
 	import { Button } from '$lib/components/ui/button';
+	import { BadgeInfo } from 'lucide-svelte';
 </script>
 
 <AlertDialog.Root open={!localStorage.getItem('firstVisitDialogShown')}>
+	<AlertDialog.Trigger>
+		<Button size="icon" variant="outline">
+				<BadgeInfo />
+			</Button>
+	</AlertDialog.Trigger>
 	<AlertDialog.Content class="max-w-[80vw] max-h-[70vh] overflow-auto md:w-[600px] lg:w-[800px]">
 		<AlertDialog.Header>
 			<AlertDialog.Title>Welcome to DirectDownloads!</AlertDialog.Title>

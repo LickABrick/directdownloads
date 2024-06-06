@@ -1,74 +1,56 @@
 <script lang="ts">
-	import { createProductIndex, searchProductIndex, type Product } from '$lib/search';
-	import { Input } from '$lib/components/ui/input';
 	import * as Command from '$lib/components/ui/command';
-	import * as Popover from '$lib/components/ui/popover';
-	import { onMount, tick } from 'svelte';
+	import { onMount } from 'svelte';
 	import items from '$lib/items.json';
 	import { selectedProduct } from '$lib/stores';
+	import { Button } from '$lib/components/ui/button';
 
-	let search: 'loading' | 'ready' = 'loading';
-	let searchTerm = '';
-	let results: any[] = [];
+	onMount(() => {
+		function handleKeydown(e: KeyboardEvent) {
+			if (e.key === 's' && (e.metaKey || e.ctrlKey)) {
+				e.preventDefault();
+				open = !open;
+			}
+		}
 
-	onMount(async () => {
-		// create search index
-		createProductIndex(items);
-		// we're in business 🤝
-		search = 'ready';
+		document.addEventListener('keydown', handleKeydown);
+
+		return () => {
+			document.removeEventListener('keydown', handleKeydown);
+		};
 	});
-
-	$: if (search === 'ready') {
-		// runs each time `searchTerm` updates
-		results = searchProductIndex(searchTerm);
-	}
-    $: console.log(results)
 	let open = false;
-    let value = '';
-
-	function closeAndFocusTrigger(triggerId: string) {
-		open = false;
-		tick().then(() => {
-			document.getElementById(triggerId)?.focus();
-		});
-	}
+	let value = '';
 </script>
 
-{#if search === 'ready'}
-	<Popover.Root bind:open let:ids disableFocusTrap openFocus={false}>
-		<Popover.Trigger >
-			<Input
-				bind:value={searchTerm}
-				placeholder="Search products..."
-				autocomplete="off"
-				spellcheck="false"
-				type="search"
-                class="w-[60vw] sm:w-[40vw] md:w-[40vw] lg:w-[40vw]"
-			/>
-		</Popover.Trigger>
-		<Popover.Content class="w-[60vw] sm:w-[40vw] md:w-[40vw] lg:w-[40vw]">
-           
-			<Command.Root>
-				<!-- <Command.Input placeholder="Search framework..." /> -->
-				<Command.Empty>No results found</Command.Empty>
-				<Command.Group>
-					{#each results as result}
-						<Command.Item
-							value={result.Name}
-							onSelect={(currentValue) => {
-								value = currentValue;
-                                console.log(result)
-                                $selectedProduct.open = true
-                                $selectedProduct.data = result
-								closeAndFocusTrigger(ids.trigger);
-							}}
-						>
-							{result.Name}
-						</Command.Item>
-					{/each}
-				</Command.Group>
-			</Command.Root>
-		</Popover.Content>
-	</Popover.Root>
+<Button variant="outline" class="flex w-48 justify-start" on:click={() => (open = !open)}>
+	<p class="text-muted-foreground">Search...</p>
+	<kbd
+		class="pointer-events-none ml-auto hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100 md:inline-flex"
+	>
+		<span class="text-xs">⌘</span>S
+	</kbd>
+</Button>
 
-{/if}
+<Command.Dialog bind:open>
+	<Command.Input placeholder="Type to search..." />
+	<Command.List>
+		<Command.Empty>No results found.</Command.Empty>
+		<Command.Group heading="Suggestions">
+			{#each items as item}
+				<Command.Item
+					value={item.Name}
+					onSelect={(currentValue) => {
+						value = currentValue;
+						console.log(item);
+						$selectedProduct.open = true;
+						$selectedProduct.data = item;
+						open = false;
+					}}
+				>
+					{item.Name}
+				</Command.Item>
+			{/each}
+		</Command.Group>
+	</Command.List>
+</Command.Dialog>

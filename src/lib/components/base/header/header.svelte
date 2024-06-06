@@ -7,6 +7,7 @@
 	import ThemeToggle from '../theme-toggle/theme-toggle.svelte';
 	import Searchbar from './searchbar.svelte';
 	import SubmitLinkButton from './submit-link-button.svelte';
+	import { AboutDialog } from '../about-dialog';
 </script>
 
 <div
@@ -17,15 +18,13 @@
 		<img src={logo} class="mr-2 h-8 w-8" alt="" />
 		<p class="hidden text-lg font-semibold md:block">DirectDownloads</p>
 	</div>
-	<div class="flex flex-1 justify-center">
+	<div class="flex-1 justify-end gap-2 sm:flex">
 		<Searchbar />
-	</div>
-	<div class="hidden flex-1 justify-end gap-2 sm:flex">
-		<SubmitLinkButton />
-		<Button size="icon" variant="outline">
-			<BadgeInfo />
-		</Button>
-		<ThemeToggle />
+		<div class="hidden sm:flex gap-2">
+			<SubmitLinkButton />
+			<AboutDialog />
+			<ThemeToggle />
+		</div>
 	</div>
 	<div class="flex sm:hidden">
 		<DropdownMenu.Root>
@@ -36,11 +35,7 @@
 			</DropdownMenu.Trigger>
 			<DropdownMenu.Content class="min-w-[50px] space-y-1">
 				<SubmitLinkButton />
-				<div>
-					<Button size="icon" variant="outline">
-						<BadgeInfo />
-					</Button>
-				</div>
+				<AboutDialog />
 				<ThemeToggle />
 			</DropdownMenu.Content>
 		</DropdownMenu.Root>
