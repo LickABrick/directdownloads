@@ -24,7 +24,7 @@
 		<Button class="md:hidden" size="icon">
 			<Plus />
 			</Button>
-		<Button class="hidden md:block">
+		<Button class="hidden md:block font-semibold">
 			Submit a link
 		</Button>
 	</Dialog.Trigger>

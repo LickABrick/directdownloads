@@ -43,10 +43,10 @@
 				autocomplete="off"
 				spellcheck="false"
 				type="search"
-                class="w-[40vw] lg:w-[40vw]"
+                class="w-[60vw] sm:w-[40vw] md:w-[40vw] lg:w-[40vw]"
 			/>
 		</Popover.Trigger>
-		<Popover.Content class="w-[60vw] lg:w-[40vw]">
+		<Popover.Content class="w-[60vw] sm:w-[40vw] md:w-[40vw] lg:w-[40vw]">
            
 			<Command.Root>
 				<!-- <Command.Input placeholder="Search framework..." /> -->
