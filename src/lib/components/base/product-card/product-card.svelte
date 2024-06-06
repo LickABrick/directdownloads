@@ -1,16 +1,30 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button';
-	import { ExternalLink, FileClock, History } from 'lucide-svelte/icons';
+	import { FileClock, History, Star } from 'lucide-svelte/icons';
 	import * as Card from '$lib/components/ui/card';
 	import { selectedProduct } from '$lib/stores';
 	import type { Product } from '$lib/search';
+	import { favorites } from '$lib/stores';
+
+	function toggleFavorite(item: Product) {
+		if ($favorites.entries.includes(item.Name)) {
+			$favorites.entries = $favorites.entries.filter((i) => i !== item.Name);
+		} else {
+			$favorites.entries = [...$favorites.entries, item.Name];
+		}
+	}
 
     export let item: Product;
 </script>
 
 <Card.Root class="min-w-[350px] md:max-w-[350px]">
 	<Card.Header>
-		<Card.Title>{item.Name}</Card.Title>
+		<Card.Title class="flex justify-items-center">
+			{item.Name}
+			<Button class="ml-auto" size="icon" variant="ghost" on:click={() => toggleFavorite(item)}>
+				<Star class="hover:text-amber-500 hover:fill-amber-500 { $favorites.entries.includes(item.Name) ? 'fill-amber-500 text-amber-500' : '' }" />
+			</Button>
+		</Card.Title>
 		<Card.Description>{item.Description}</Card.Description>
 	</Card.Header>
 	<Card.Content class="flex flex-col gap-2">
