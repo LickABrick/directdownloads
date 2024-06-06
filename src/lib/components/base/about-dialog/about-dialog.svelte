@@ -4,7 +4,7 @@
 </script>
 
 <AlertDialog.Root open={!localStorage.getItem('firstVisitDialogShown')}>
-	<AlertDialog.Content class="md:min-w-[600px] lg:min-w-[800px]">
+	<AlertDialog.Content class="max-w-[80vw] max-h-[70vh] overflow-auto md:min-w-[600px] lg:min-w-[800px]">
 		<AlertDialog.Header>
 			<AlertDialog.Title>Welcome to DirectDownloads!</AlertDialog.Title>
 		</AlertDialog.Header>
