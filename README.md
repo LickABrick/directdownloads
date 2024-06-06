@@ -1,38 +1,21 @@
-# create-svelte
+# DirectDownloads
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+DirectDownloads is a website dedicated to providing quick access to essential software tools commonly used by IT administrators.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Discover and download trusted software tools necessary for your daily tasks
+- Comply with all software licensing agreements and use the tools responsibly
+- Access to software files is through direct links to the official sources
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Important Information
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- All software provided on this website is subject to their respective licenses and terms of use
+- For legal inquiries, please contact us via email: [d63yd9e0i@mozmail.com](mailto:d63yd9e0i@mozmail.com)
 
-## Developing
+## How to run the app
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+1. Clone the repository
+2. Navigate to the project directory
+3. Install the dependencies by running `npm install`
+4. Start the development server by running `npm run dev`
