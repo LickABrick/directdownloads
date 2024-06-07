@@ -40,9 +40,12 @@
 						builders={[builder]}
 						href={item.Releases[0].DownloadUrl}
 						target="_blank"
-						class="w-full gap-2 font-semibold"
+						class="w-full font-semibold flex flex-col"
 					>
 						Download latest
+						<span class="text-xs">
+						{item.Releases[0].Version}
+						</span>
 					</Button>
 				</Tooltip.Trigger>
 				<Tooltip.Content>
