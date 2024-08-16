@@ -103,6 +103,24 @@
 		"LoginRequired": false,
 		"Releases": [
 			{
+				"Version": "10.18.0.0",
+				"DownloadUrl": "https://download.ivanti.com/downloads/RES/Ivanti%20Workspace%20Control/Ivanti_Workspace_Control_10.18.0.0.zip",
+				"ReleaseDate": "23-07-2024",
+				"ReleaseNotes": "https://help.ivanti.com/res/help/en_US/IWC/2024/ReleaseNotesRevision/default.htm",
+				"Size": "787 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "069119F6CF6470E31283F926EFFD31DF6541B8B222A24F34CCCB8E6AC736D3C0"
+					},
+					{
+						"Algorithm": "SHA512",
+						"Checksum": "ED5F072EC05A752494BCC48248B8C5CC3C0517984B1EAFE8DF06F821A93086B294006C373FA3DFE3F99552E7C0B6AB0C45B1EFE95243C615381C17D807CA3123"
+					}
+				],
+				"ChecksumSource": "https://forums.ivanti.com/s/article/Ivanti-Workspace-Control-revision-download-links"
+			},
+			{
 				"Version": "10.17.10.0",
 				"DownloadUrl": "https://download.ivanti.com/downloads/RES/Ivanti%20Workspace%20Control/Ivanti_Workspace_Control_10.17.10.0.zip",
 				"ReleaseDate": "21-05-2024",
