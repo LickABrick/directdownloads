@@ -22,9 +22,7 @@
 					}
 				],
 				"ChecksumSource": "https://www.veeam.com/products/downloads/latest-version.html?tab=current"
-			}
-		],
-		[
+			},
 			{
 				"Version": "12.1.2.172",
 				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.1.2.172_20240515.iso",
