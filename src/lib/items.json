@@ -6,6 +6,26 @@
 		"LoginRequired": false,
 		"Releases": [
 			{
+				"Version": "12.2.0.334",
+				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.2.0.334_20240824.iso",
+				"ReleaseDate": "28-08-2024",
+				"ReleaseNotes": "https://www.veeam.com/veeam_backup_12_2_release_notes_rn.pdf",
+				"Size": "11.5 GB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "cea22c0afbb465b511a9d38ecc9c8927886cf8e4"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "8f290d55cd6882320733f04e4f6f8713"
+					}
+				],
+				"ChecksumSource": "https://www.veeam.com/products/downloads/latest-version.html?tab=current"
+			}
+		],
+		[
+			{
 				"Version": "12.1.2.172",
 				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.1.2.172_20240515.iso",
 				"ReleaseDate": "21-05-2024",
