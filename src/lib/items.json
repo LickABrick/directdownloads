@@ -50,6 +50,24 @@
 		"LoginRequired": false,
 		"Releases": [
 			{
+				"Version": "6.2.0.121 ",
+				"DownloadUrl": "https://download2.veeam.com/VAW/v6/VeeamAgentWindows_6.2.0.121.zip",
+				"ReleaseDate": "28-08-2024",
+				"ReleaseNotes": "https://helpcenter.veeam.com/rn/veeam_agent_windows_6_2_release_notes.html",
+				"Size": "165 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "ddd2eb1541f680211ac7be2c8a2a6528283ea951"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "5b15d16eb962ee7c7aad7461255e5cbc"
+					}
+				],
+				"ChecksumSource": "https://www.veeam.com/windows-backup-download.html"
+			},
+			{
 				"Version": "6.1.2.134",
 				"DownloadUrl": "https://download2.veeam.com/VAW/v6/VeeamAgentWindows_6.1.2.134.zip",
 				"ReleaseDate": "21-05-2024",
