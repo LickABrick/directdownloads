@@ -94,6 +94,15 @@
 		"LoginRequired": false,
 		"Releases": [
 			{
+				"Version": "3.07",
+				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/sc-windows-fw-ilo/p1748018352/v251412/cp062166.exe",
+				"ReleaseDate": "14-08-2024",
+				"ReleaseNotes": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-8384f9a8878649da&tab=releaseNotes",
+				"Size": "",
+				"Checksums": [],
+				"ChecksumSource": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=Installation+Instructions&softwareId=MTX_cd14c1a89d4b40cc9d5dc68c97"
+			},
+			{
 				"Version": "3.06",
 				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/fwpkg-ilo/p991377599/v250108/ilo5_306.fwpkg",
 				"ReleaseDate": "16-07-2024",
