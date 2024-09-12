@@ -202,5 +202,40 @@
 				"ChecksumSource": "https://forums.ivanti.com/s/article/Ivanti-Workspace-Control-revision-download-links"
 			}
 		]
+	},
+	{
+		"Name": "Aruba 2530 series firmware",
+		"Publisher": "Aruba / HPE",
+		"Description": "Firmware for Aruba 2530 switch series",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "YA.16.11.0020",
+				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/YA_16_11_0020.swi?merchantId=ASP_DROPBOX",
+				"ReleaseDate": "17-07-2024",
+				"ReleaseNotes": "https://www.arubanetworks.com/techdocs/AOS-Switch/RN/16.11/AOS-SSwitch16.11.0020RN.pdf",
+				"Size": "14.5 MB",
+				"Checksums": [
+				],
+				"ChecksumSource": ""
+			}
+		]
+	},
+	{
+		"Name": "Aruba 2930M + 2930F series firmware",
+		"Publisher": "Aruba / HPE",
+		"Description": "Firmware for Aruba 2930M and 2930F switch series",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "WC.16.11.0020",
+				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/WC_16_11_0020.swi?merchantId=ASP_DROPBOX",
+				"ReleaseDate": "17-07-2024",
+				"ReleaseNotes": "https://www.arubanetworks.com/techdocs/AOS-Switch/RN/16.11/AOS-SSwitch16.11.0020RN.pdf",
+				"Size": "28.9 MB",
+				"Checksums": [],
+				"ChecksumSource": ""
+			}
+		]
 	}
 ]
