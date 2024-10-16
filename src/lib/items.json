@@ -123,7 +123,7 @@
 			},
 			{
 				"Version": "3.07",
-				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/sc-windows-fw-ilo/p1748018352/v251412/cp062166.exe",
+				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/fwpkg-ilo/p991377599/v251409/ilo5_307.fwpkg",
 				"ReleaseDate": "14-08-2024",
 				"ReleaseNotes": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-8384f9a8878649da&tab=releaseNotes",
 				"Size": "",
