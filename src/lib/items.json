@@ -1,89 +1,35 @@
 [
 	{
-		"Name": "Veeam Backup and Replication",
-		"Publisher": "Veeam",
-		"Description": "Backup and Replication",
+		"Name": "Aruba 2530 series firmware",
+		"Publisher": "Aruba / HPE",
+		"Description": "Firmware for Aruba 2530 switch series",
 		"LoginRequired": false,
 		"Releases": [
 			{
-				"Version": "12.2.0.334",
-				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.2.0.334_20240824.iso",
-				"ReleaseDate": "28-08-2024",
-				"ReleaseNotes": "https://www.veeam.com/veeam_backup_12_2_release_notes_rn.pdf",
-				"Size": "11.5 GB",
-				"Checksums": [
-					{
-						"Algorithm": "SHA-1",
-						"Checksum": "cea22c0afbb465b511a9d38ecc9c8927886cf8e4"
-					},
-					{
-						"Algorithm": "MD5",
-						"Checksum": "8f290d55cd6882320733f04e4f6f8713"
-					}
-				],
-				"ChecksumSource": "https://www.veeam.com/products/downloads/latest-version.html?tab=current"
-			},
-			{
-				"Version": "12.1.2.172",
-				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.1.2.172_20240515.iso",
-				"ReleaseDate": "21-05-2024",
-				"ReleaseNotes": "https://www.veeam.com/veeam_backup_12_1_release_notes_rn.pdf",
-				"Size": "9.1 GB",
-				"Checksums": [
-					{
-						"Algorithm": "SHA-1",
-						"Checksum": "3e9e11cb8879ddeb4558ca8de702f7e821a2c25e"
-					},
-					{
-						"Algorithm": "MD5",
-						"Checksum": "a12c0f6ee2faeb735c6d15d8832f915a"
-					}
-				],
-				"ChecksumSource": "https://www.veeam.com/download-version.html"
+				"Version": "YA.16.11.0020",
+				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/YA_16_11_0020.swi?merchantId=ASP_DROPBOX",
+				"ReleaseDate": "17-07-2024",
+				"ReleaseNotes": "https://www.arubanetworks.com/techdocs/AOS-Switch/RN/16.11/AOS-SSwitch16.11.0020RN.pdf",
+				"Size": "14.5 MB",
+				"Checksums": [],
+				"ChecksumSource": ""
 			}
 		]
 	},
 	{
-		"Name": "Veeam Agent for Microsoft Windows",
-		"Publisher": "Veeam",
-		"Description": "Veeam Agent for Microsoft Windows",
+		"Name": "Aruba 2930M + 2930F series firmware",
+		"Publisher": "Aruba / HPE",
+		"Description": "Firmware for Aruba 2930M and 2930F switch series",
 		"LoginRequired": false,
 		"Releases": [
 			{
-				"Version": "6.2.0.121 ",
-				"DownloadUrl": "https://download2.veeam.com/VAW/v6/VeeamAgentWindows_6.2.0.121.zip",
-				"ReleaseDate": "28-08-2024",
-				"ReleaseNotes": "https://helpcenter.veeam.com/rn/veeam_agent_windows_6_2_release_notes.html",
-				"Size": "165 MB",
-				"Checksums": [
-					{
-						"Algorithm": "SHA-1",
-						"Checksum": "ddd2eb1541f680211ac7be2c8a2a6528283ea951"
-					},
-					{
-						"Algorithm": "MD5",
-						"Checksum": "5b15d16eb962ee7c7aad7461255e5cbc"
-					}
-				],
-				"ChecksumSource": "https://www.veeam.com/windows-backup-download.html"
-			},
-			{
-				"Version": "6.1.2.134",
-				"DownloadUrl": "https://download2.veeam.com/VAW/v6/VeeamAgentWindows_6.1.2.134.zip",
-				"ReleaseDate": "21-05-2024",
-				"ReleaseNotes": "https://www.veeam.com/veeam_agent_windows_6_1_release_notes_rn.pdf",
-				"Size": "165 MB",
-				"Checksums": [
-					{
-						"Algorithm": "SHA-1",
-						"Checksum": "e0b215b7703cc5786e38002962287fc6236cbf86"
-					},
-					{
-						"Algorithm": "MD5",
-						"Checksum": "15637455aec79b525bf3d54d984e54d0"
-					}
-				],
-				"ChecksumSource": "https://www.veeam.com/windows-backup-download.html"
+				"Version": "WC.16.11.0020",
+				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/WC_16_11_0020.swi?merchantId=ASP_DROPBOX",
+				"ReleaseDate": "17-07-2024",
+				"ReleaseNotes": "https://www.arubanetworks.com/techdocs/AOS-Switch/RN/16.11/AOS-SSwitch16.11.0020RN.pdf",
+				"Size": "28.9 MB",
+				"Checksums": [],
+				"ChecksumSource": ""
 			}
 		]
 	},
@@ -242,37 +188,90 @@
 		]
 	},
 	{
-		"Name": "Aruba 2530 series firmware",
-		"Publisher": "Aruba / HPE",
-		"Description": "Firmware for Aruba 2530 switch series",
+		"Name": "Veeam Agent for Microsoft Windows",
+		"Publisher": "Veeam",
+		"Description": "Veeam Agent for Microsoft Windows",
 		"LoginRequired": false,
 		"Releases": [
 			{
-				"Version": "YA.16.11.0020",
-				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/YA_16_11_0020.swi?merchantId=ASP_DROPBOX",
-				"ReleaseDate": "17-07-2024",
-				"ReleaseNotes": "https://www.arubanetworks.com/techdocs/AOS-Switch/RN/16.11/AOS-SSwitch16.11.0020RN.pdf",
-				"Size": "14.5 MB",
+				"Version": "6.2.0.121 ",
+				"DownloadUrl": "https://download2.veeam.com/VAW/v6/VeeamAgentWindows_6.2.0.121.zip",
+				"ReleaseDate": "28-08-2024",
+				"ReleaseNotes": "https://helpcenter.veeam.com/rn/veeam_agent_windows_6_2_release_notes.html",
+				"Size": "165 MB",
 				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "ddd2eb1541f680211ac7be2c8a2a6528283ea951"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "5b15d16eb962ee7c7aad7461255e5cbc"
+					}
 				],
-				"ChecksumSource": ""
+				"ChecksumSource": "https://www.veeam.com/windows-backup-download.html"
+			},
+			{
+				"Version": "6.1.2.134",
+				"DownloadUrl": "https://download2.veeam.com/VAW/v6/VeeamAgentWindows_6.1.2.134.zip",
+				"ReleaseDate": "21-05-2024",
+				"ReleaseNotes": "https://www.veeam.com/veeam_agent_windows_6_1_release_notes_rn.pdf",
+				"Size": "165 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "e0b215b7703cc5786e38002962287fc6236cbf86"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "15637455aec79b525bf3d54d984e54d0"
+					}
+				],
+				"ChecksumSource": "https://www.veeam.com/windows-backup-download.html"
 			}
 		]
 	},
 	{
-		"Name": "Aruba 2930M + 2930F series firmware",
-		"Publisher": "Aruba / HPE",
-		"Description": "Firmware for Aruba 2930M and 2930F switch series",
+		"Name": "Veeam Backup and Replication",
+		"Publisher": "Veeam",
+		"Description": "Backup and Replication",
 		"LoginRequired": false,
 		"Releases": [
 			{
-				"Version": "WC.16.11.0020",
-				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/WC_16_11_0020.swi?merchantId=ASP_DROPBOX",
-				"ReleaseDate": "17-07-2024",
-				"ReleaseNotes": "https://www.arubanetworks.com/techdocs/AOS-Switch/RN/16.11/AOS-SSwitch16.11.0020RN.pdf",
-				"Size": "28.9 MB",
-				"Checksums": [],
-				"ChecksumSource": ""
+				"Version": "12.2.0.334",
+				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.2.0.334_20240824.iso",
+				"ReleaseDate": "28-08-2024",
+				"ReleaseNotes": "https://www.veeam.com/veeam_backup_12_2_release_notes_rn.pdf",
+				"Size": "11.5 GB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "cea22c0afbb465b511a9d38ecc9c8927886cf8e4"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "8f290d55cd6882320733f04e4f6f8713"
+					}
+				],
+				"ChecksumSource": "https://www.veeam.com/products/downloads/latest-version.html?tab=current"
+			},
+			{
+				"Version": "12.1.2.172",
+				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.1.2.172_20240515.iso",
+				"ReleaseDate": "21-05-2024",
+				"ReleaseNotes": "https://www.veeam.com/veeam_backup_12_1_release_notes_rn.pdf",
+				"Size": "9.1 GB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "3e9e11cb8879ddeb4558ca8de702f7e821a2c25e"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "a12c0f6ee2faeb735c6d15d8832f915a"
+					}
+				],
+				"ChecksumSource": "https://www.veeam.com/download-version.html"
 			}
 		]
 	}
