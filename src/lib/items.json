@@ -238,6 +238,24 @@
 		"LoginRequired": false,
 		"Releases": [
 			{
+				"Version": "12.3.0.310",
+				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.3.0.310_20241201.iso",
+				"ReleaseDate": "03-12-2024",
+				"ReleaseNotes": "https://www.veeam.com/veeam_backup_12_3_whats_new_wn.pdf",
+				"Size": "11.5 GB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "972a8a38bbdbe80c0d11284e99586afdf60dd56d"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "92b9ba7506e07889daffe92db15d093c"
+					}
+				],
+				"ChecksumSource": "https://www.veeam.com/products/downloads/latest-version.html?tab=current"
+			},
+			{
 				"Version": "12.2.0.334",
 				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.2.0.334_20240824.iso",
 				"ReleaseDate": "28-08-2024",
