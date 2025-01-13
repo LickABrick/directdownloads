@@ -40,6 +40,20 @@
 		"LoginRequired": false,
 		"Releases": [
 			{
+				"Version": "3.10",
+				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/fwpkg-ilo/p991377599/v257240/ilo5_310.fwpkg",
+				"ReleaseDate": "16-12-2024",
+				"ReleaseNotes": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=releaseNotes",
+				"Size": "",
+				"Checksums": [
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "44ce85142df631df0a35b1159eb2d6214527366ad142a4d6f54fdc6038a4a7d4"
+					}
+				],
+				"ChecksumSource": "https://support.hpe.com/connect/s/softwaredetails?language=en_US&collectionId=MTX-2dc80c4ae4b943fa&tab=Installation+Instructions"
+			},
+			{
 				"Version": "3.09",
 				"DownloadUrl": "https://downloads.hpe.com/pub/softlib2/software1/fwpkg-ilo/p991377599/v254694/ilo5_309.fwpkg",
 				"ReleaseDate": "10-10-2024",
