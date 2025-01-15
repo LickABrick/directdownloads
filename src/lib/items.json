@@ -79,6 +79,23 @@
 		]
 	},
 	{
+		"Name": "HPE OfficeConnect 1800 Series firmware",
+		"Publisher": "Aruba / HPE",
+		"Description": "Firmware for HPE OfficeConnect 1800 switch series",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "03.04",
+				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/PD.02.23.stk?merchantId=ASP_DROPBOX",
+				"ReleaseDate": "22-11-2010",
+				"ReleaseNotes": "https://h30326.www3.hpe.com/hpn/1800-24G-Software-PB0304.zip?merchantId=ASP_DROPBOX",
+				"Size": "357 KB",
+				"Checksums": [],
+				"ChecksumSource": ""
+			}
+		]
+	},
+	{
 		"Name": "Aruba Instant On 1930 firmware",
 		"Publisher": "Aruba / HPE",
 		"Description": "Firmware for Aruba Instant On 1930 switch series",
