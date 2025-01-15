@@ -11,7 +11,7 @@
 </script>
 
 <div
-	class={cn('col-span-2 flex h-16 items-center justify-between gap-4 bg-muted/30 p-4 shadow')}
+	class={cn('col-span-2 sticky top-0 z-50 flex h-14 items-center border-b border-border/40 bg-background/95 p-2 px-4 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:px-6 justify-between gap-4')}
 	{...$$restProps}
 >
 	<div class="flex flex-1">
@@ -20,7 +20,7 @@
 	</div>
 	<div class="flex-1 justify-end gap-2 sm:flex">
 		<Searchbar />
-		<div class="hidden sm:flex gap-2">
+		<div class="hidden sm:flex gap-2 items-center">
 			<SubmitLinkButton />
 			<AboutDialog />
 			<ThemeToggle />

@@ -13,8 +13,8 @@
 {#if $isDesktop}
 	<AlertDialog.Root bind:open={$showFirstVisitDialog}>
 		<AlertDialog.Trigger>
-			<Button size="icon" variant="outline">
-				<BadgeInfo />
+			<Button size="sm" variant="outline">
+				<BadgeInfo size={16} />
 			</Button>
 		</AlertDialog.Trigger>
 		<AlertDialog.Content class="max-h-[70vh] max-w-[80vw] overflow-auto md:w-[600px] lg:w-[800px]">

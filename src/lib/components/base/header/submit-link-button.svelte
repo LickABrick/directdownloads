@@ -27,10 +27,10 @@
 {#if $isDesktop}
 	<Dialog.Root>
 		<Dialog.Trigger>
-			<Button class="md:hidden" size="icon">
-				<Plus />
+			<Button size="sm">
+				<Plus size={16} class="md:hidden" />
+				<span class="hidden font-semibold md:block">Submit a link</span>
 			</Button>
-			<Button class="hidden font-semibold md:block">Submit a link</Button>
 		</Dialog.Trigger>
 		<Dialog.Content>
 			<Dialog.Header>
@@ -77,10 +77,10 @@
 {:else}
 	<Drawer.Root>
 		<Drawer.Trigger>
-			<Button class="md:hidden" size="icon">
-				<Plus />
+			<Button size="sm">
+				<Plus class="md:hidden" size={16} />
+				<span class="hidden font-semibold md:block">Submit a link</span>
 			</Button>
-			<Button class="hidden font-semibold md:block">Submit a link</Button>
 		</Drawer.Trigger>
 		<Drawer.Content>
 			<Drawer.Header>

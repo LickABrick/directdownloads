@@ -23,7 +23,7 @@
 	let value = '';
 </script>
 
-<Button variant="outline" class="flex w-48 justify-start" on:click={() => (open = !open)}>
+<Button variant="outline" class="flex w-48 justify-start" size="sm" on:click={() => (open = !open)}>
 	<p class="text-muted-foreground">Search...</p>
 	<kbd
 		class="pointer-events-none ml-auto hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100 md:inline-flex"
