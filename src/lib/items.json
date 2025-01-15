@@ -53,6 +53,32 @@
 		]
 	},
 	{
+		"Name": "HPE OfficeConnect 1920S Series firmware",
+		"Publisher": "Aruba / HPE",
+		"Description": "Firmware for HPE OfficeConnect 1920S switch series",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "0.2.23",
+				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/PD.02.23.stk?merchantId=ASP_DROPBOX",
+				"ReleaseDate": "13-02-2024",
+				"ReleaseNotes": "https://www.arubanetworks.com/techdocs/P-code/RN/PD.02.23_Release_Notes.pdf",
+				"Size": "14.2 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "A91A4CF5F5E0D86E30EDA98F9FC99DE182263DB9635DFFC832BE20E63A569581"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "ACAC5605F764E171B2C9CFFF35A1C01A"
+					}
+				],
+				"ChecksumSource": "https://networkingsupport.hpe.com/downloads/software/RmlsZTozM2FlYTZlYS1jYjU4LTExZWUtYmFmYy1mYmYwYjFkYmQ5NWQ%3D"
+			}
+		]
+	},
+	{
 		"Name": "Aruba Instant On 1930 firmware",
 		"Publisher": "Aruba / HPE",
 		"Description": "Firmware for Aruba Instant On 1930 switch series",
