@@ -53,6 +53,22 @@
 		]
 	},
 	{
+		"Name": "Aruba Instant On 1930 firmware",
+		"Publisher": "Aruba / HPE",
+		"Description": "Firmware for Aruba Instant On 1930 switch series",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "3.1.0",
+				"DownloadUrl": "https://community.arubainstanton.com/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=51cd8876-9890-532e-1358-4da919f24bfa&forceDialog=0",
+				"ReleaseDate": "22-11-2024",
+				"ReleaseNotes": "https://community.arubainstanton.com/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=45b67477-aea0-385d-60f4-9015c6faf92f&forceDialog=0",
+				"Size": "35.1 MB",
+				"Checksums": []
+			}
+		]
+	},
+	{
 		"Name": "Aruba 2930M + 2930F series firmware",
 		"Publisher": "Aruba / HPE",
 		"Description": "Firmware for Aruba 2930M and 2930F switch series",
