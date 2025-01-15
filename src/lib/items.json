@@ -6,6 +6,42 @@
 		"LoginRequired": false,
 		"Releases": [
 			{
+				"Version": "YA.16.11.0023",
+				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/YA_16_11_0023.swi?merchantId=ASP_DROPBOX",
+				"ReleaseDate": "19-12-2024",
+				"ReleaseNotes": "https://www.arubanetworks.com/techdocs/AOS-Switch/RN/16.11/AOS-SSwitch16.11.0023RN.pdf",
+				"Size": "15.23 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "0ddf8e969ff4c68d99bfa6988aac77694a8edb6192c4ce92bb99952406fcc4e8"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "adf381e3f2bd61a7ce00c219610094b8"
+					}
+				],
+				"ChecksumSource": "https://networkingsupport.hpe.com/downloads/software/RmlsZTo5NTZkZjRiYy04NWEyLTExZWYtYmE1OC1hMzY3N2RhMzczODE%3D"
+			},
+			{
+				"Version": "YA.16.11.0021",
+				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/YB_16_11_0021.swi?merchantId=ASP_DROPBOX",
+				"ReleaseDate": "08-10-2024",
+				"ReleaseNotes": "https://www.arubanetworks.com/techdocs/AOS-Switch/RN/16.11/AOS-SSwitch16.11.0021RN.pdf",
+				"Size": "13.68 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA256",
+						"Checksum": "e793e4f65031cb99166e38e6357a5ee7b6a28f05b758271d63f16690c4e84ec8"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "586f49a8e65c36b114bd96ab9c87b1b6"
+					}
+				],
+				"ChecksumSource": "https://networkingsupport.hpe.com/downloads/software/RmlsZTo5NTZkZjRiYy04NWEyLTExZWYtYmE1OC1hMzY3N2RhMzczODE%3D"
+			},
+			{
 				"Version": "YA.16.11.0020",
 				"DownloadUrl": "https://h30326.www3.hpe.com/hpn/YA_16_11_0020.swi?merchantId=ASP_DROPBOX",
 				"ReleaseDate": "17-07-2024",
