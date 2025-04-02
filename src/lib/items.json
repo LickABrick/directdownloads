@@ -303,7 +303,25 @@
 		"LoginRequired": false,
 		"Releases": [
 			{
-				"Version": "6.2.0.121 ",
+				"Version": "6.3.1.1074 ",
+				"DownloadUrl": "https://download2.veeam.com/VAW/v6/VeeamAgentWindows_6.3.1.1074.zip",
+				"ReleaseDate": "19-03-2025",
+				"ReleaseNotes": "https://helpcenter.veeam.com/rn/veeam_agent_windows_6_3_1_release_notes.html",
+				"Size": "166 MB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "0868d9407f55d9145b640f0081a052f40820a793"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "da6d0f05ef10e657cf85210d763a9b97"
+					}
+				],
+				"ChecksumSource": "https://www.veeam.com/windows-backup-download.html"
+			},
+			{
+				"Version": "6.2.0.121",
 				"DownloadUrl": "https://download2.veeam.com/VAW/v6/VeeamAgentWindows_6.2.0.121.zip",
 				"ReleaseDate": "28-08-2024",
 				"ReleaseNotes": "https://helpcenter.veeam.com/rn/veeam_agent_windows_6_2_release_notes.html",
@@ -346,6 +364,24 @@
 		"Description": "Backup and Replication",
 		"LoginRequired": false,
 		"Releases": [
+			{
+				"Version": "12.3.1.1139",
+				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.3.1.1139_20250331.iso",
+				"ReleaseDate": "27-03-2025",
+				"ReleaseNotes": "https://www.veeam.com/veeam_backup_12_3_whats_new_wn.pdf",
+				"Size": "13 GB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "f4fb2808df8593303ef581dfd36481f74ec01d4e"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "aeebd18eae0bb0257e5682325065f78a"
+					}
+				],
+				"ChecksumSource": "https://helpcenter.veeam.com/rn/veeam_backup_12_3_release_notes.html"
+			},
 			{
 				"Version": "12.3.0.310",
 				"DownloadUrl": "https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.3.0.310_20241201.iso",
@@ -399,6 +435,32 @@
 					}
 				],
 				"ChecksumSource": "https://www.veeam.com/download-version.html"
+			}
+		]
+	},
+	{
+		"Name": "Veeam Backup for Microsoft 365",
+		"Publisher": "Veeam",
+		"Description": "Veeam Backup for Microsoft 365",
+		"LoginRequired": false,
+		"Releases": [
+			{
+				"Version": "8.1.1.159",
+				"DownloadUrl": "https://download2.veeam.com/VBO/v8/VeeamBackupMicrosoft365_8.1.1.159_20250328.iso",
+				"ReleaseDate": "02-04-2025",
+				"ReleaseNotes": "https://helpcenter.veeam.com/rn/veeam_backup_m365_8_1_release_notes.html",
+				"Size": "1.5 GB",
+				"Checksums": [
+					{
+						"Algorithm": "SHA-1",
+						"Checksum": "23cef29bed6ddf22c389688b692855a698231d79"
+					},
+					{
+						"Algorithm": "MD5",
+						"Checksum": "80ce4ee098388834ebd61e57afcf8af0"
+					}
+				],
+				"ChecksumSource": "https://helpcenter.veeam.com/rn/veeam_backup_12_3_release_notes.html"
 			}
 		]
 	}
