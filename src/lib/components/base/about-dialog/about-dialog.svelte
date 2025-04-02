@@ -7,7 +7,6 @@
 	import { mediaQuery } from 'svelte-legos';
 
 	const isDesktop = mediaQuery('(min-width: 768px)');
-	$: console.log($showFirstVisitDialog.valueOf());
 </script>
 
 {#if $isDesktop}

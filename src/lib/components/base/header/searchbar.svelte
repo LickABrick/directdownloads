@@ -42,7 +42,6 @@
 					value={item.Name}
 					onSelect={(currentValue) => {
 						value = currentValue;
-						console.log(item);
 						$selectedProduct.open = true;
 						$selectedProduct.data = item;
 						open = false;

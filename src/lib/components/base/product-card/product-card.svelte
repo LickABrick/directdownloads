@@ -40,11 +40,14 @@
 						builders={[builder]}
 						href={item.Releases[0].DownloadUrl}
 						target="_blank"
-						class="w-full font-semibold flex flex-col"
+						class="flex w-full flex-col font-semibold"
 					>
 						Download latest
 						<span class="text-xs">
-						{item.Releases[0].Version}
+							{item.Releases[0].Version}
+							{#if item.Releases[0].ReleaseDate}
+								 ({new Intl.DateTimeFormat(navigator.language).format(new Date(item.Releases[0].ReleaseDate.split('-').reverse().map(Number)))})
+							{/if}
 						</span>
 					</Button>
 				</Tooltip.Trigger>

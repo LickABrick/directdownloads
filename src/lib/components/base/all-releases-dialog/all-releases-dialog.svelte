@@ -43,7 +43,7 @@
 				<Table.Body>
 					{#each $selectedProduct.data?.Releases as release}
 						<Table.Row>
-							<Table.Cell class="font-medium">{release.ReleaseDate}</Table.Cell>
+							<Table.Cell class="font-medium">{new Intl.DateTimeFormat(navigator.language).format(new Date(release.ReleaseDate.split('-').reverse().map(Number)))}</Table.Cell>
 							<Table.Cell>{release.Version}</Table.Cell>
 							<Table.Cell>
 								{#if release.Size}
